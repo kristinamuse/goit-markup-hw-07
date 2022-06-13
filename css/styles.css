@@ -70,7 +70,6 @@ img{
 
 /* header */
 .header{
-    /* padding: 0px 215px; */
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -81,7 +80,7 @@ img{
 
 /* logo */
 .logo {
-    color: #000000;
+    color: var(--accent-colour);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -95,8 +94,8 @@ img{
     color: var(--accent-colour);
 }
 
-.web {
-    color: var(--accent-colour);
+.header-studio {
+    color: #000000;
 }
 
 /* site nav */
@@ -739,7 +738,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-.studio{
+.footer-studio{
     color:var(--primary-background-colour);
 }
 
