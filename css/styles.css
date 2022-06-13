@@ -26,6 +26,12 @@ ul{
     margin-bottom: 0px;
 }
 
+/* list style */
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
 /* images */
 img{
     display: block;
@@ -60,12 +66,6 @@ img{
 /* section */
 .section{
     padding: 94px 0px;
-}
-
-/* list style */
-.list {
-    list-style: none;
-    padding-left: 0;
 }
 
 /* header */
@@ -514,7 +514,6 @@ textarea {
 
 .advantages-list{
     display: flex;
-    padding: 0;
 }
 
 /* .example::before{
@@ -572,7 +571,6 @@ textarea {
 
 .images-list{
     display: flex;
-    padding: 0;
     /* justify-content: space-between; */
 }
 
@@ -623,7 +621,6 @@ textarea {
 .team-list{
     display: flex;
     /* justify-content: space-between; */
-    padding: 0;
 }
 
 .team-card{
@@ -690,7 +687,6 @@ textarea {
 
 .client-list{
     display: flex;
-    padding: 0;
 }
 
 .client-item{
@@ -755,10 +751,6 @@ textarea {
     line-height: 1.71;
 }
 
-.address-list{
-    padding: 0;
-}
-
 .address-list .item{
     margin-top: 9px;
 }
@@ -796,7 +788,6 @@ textarea {
 
 .socialmedia-list{
     display: flex;
-    padding: 0;
 }
 
 .socialmedia-item{
@@ -916,7 +907,6 @@ textarea {
 .projects-list{
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
     /* justify-content: space-between */
 }
 
