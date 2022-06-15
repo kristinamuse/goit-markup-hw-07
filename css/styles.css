@@ -5,15 +5,16 @@
     --primary-background-colour: #ffffff;
     --secondary-background-colour: #F5F4FA;
     --primary-icon-colour: #AFB1B8;
+    --main-font: Roboto, sans-serif;
+    --main-letter-spacing: 0.03em;
 }
 
 /* body */
 .body {
-    background-color:var(--primary-background-colour);
+    background-color: var(--primary-background-colour);
     color: var(--primary-text-colour);
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
-
+    font-family: var(--main-font);
+    letter-spacing: var(--main-letter-spacing);
 }
 
 /* margin */
@@ -104,7 +105,8 @@ img{
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo:hover{
+.logo:hover,
+.logo:focus{
     color: var(--accent-colour);
 }
 
@@ -154,9 +156,7 @@ img{
 }
 
 .site-nav__link:hover,
-.site-nav__link:focus,
-.contacts__link:hover,
-.contacts__link:focus {
+.site-nav__link:focus {
     color: var(--accent-colour);
 }
 
@@ -195,6 +195,11 @@ img{
     letter-spacing: 0.02em;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+    color: var(--accent-colour);
 }
 
 .contacts__icon{
@@ -283,10 +288,6 @@ img{
     pointer-events: none;
 }
 
-.backdrop.is-hidden .modal{
-    transform: translate(-50%, -50%) scale(0.9);
-}
-
 .modal{
     position: absolute;
     top: 50%;
@@ -303,6 +304,10 @@ img{
     border-radius: 4px;
 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 .modal__button{
@@ -576,8 +581,7 @@ img{
     background-color:var(--secondary-background-colour) ;
 }
 
-.team,
-.socialmedia {
+.team{
     display: flex;
 }
 
@@ -614,6 +618,12 @@ img{
     line-height: 1.2;
     text-align: center;
     margin-bottom: 16px;
+}
+
+/* socialmedia */
+
+.socialmedia {
+    display: flex;
 }
 
 .socialmedia__item{
@@ -754,7 +764,7 @@ img{
     background-color: var(--accent-colour);
 }
 
-/* footer form */
+/* subscribtion form */
 .subscribtion{
     display: flex;
     align-items: flex-end;
