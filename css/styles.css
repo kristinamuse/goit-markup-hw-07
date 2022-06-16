@@ -486,11 +486,11 @@ img{
 }
 
 /* advantages */
-.section-advantages{
+.advantages{
     padding: 94px 0px 0px;
 }
 
-.advantages{
+.advantages__list{
     display: flex;
 }
 
@@ -577,11 +577,11 @@ img{
 }
 
 /* team */
-.section-team{
+.team{
     background-color:var(--secondary-background-colour) ;
 }
 
-.team{
+.team__list{
     display: flex;
 }
 
