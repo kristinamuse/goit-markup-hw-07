@@ -1,5 +1,9 @@
+// .work {
+//     display: flex;
+// }
+
 .work {
-    display: flex;
+    @include centeredFlex();
 }
 
 .work__item {

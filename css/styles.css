@@ -136,8 +136,7 @@ img{
     margin-left: 50px;
 } */
 
-.site-nav__item:not(:last-child),
-.contacts__item:not(:last-child) {
+.site-nav__item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -181,6 +180,10 @@ img{
 .contacts{
     display: flex;
     margin-left: auto;
+}
+
+.contacts__item:not(:last-child) {
+    margin-right: 50px;
 }
 
 .contacts__link{
@@ -819,6 +822,9 @@ img{
 .filter {
     display: flex;
     justify-content: center;
+}
+
+.section__filter{
     margin-bottom: 50px;
 }
 

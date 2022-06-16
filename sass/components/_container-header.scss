@@ -1,4 +1,8 @@
+// .container-header {
+//     display: flex;
+//     align-items: center;
+// }
+
 .container-header {
-    display: flex;
-    align-items: center;
+    @include centeredFlex();
 }

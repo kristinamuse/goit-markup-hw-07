@@ -1,12 +1,18 @@
+// .contacts {
+//     display: flex;
+//     margin-left: auto;
+// }
+
 .contacts {
-    display: flex;
+    @include centeredFlex();
     margin-left: auto;
 }
 
 .contacts__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @include centeredFlex();
 
     color: var(--secondary-text-colour);
     font-weight: 500;

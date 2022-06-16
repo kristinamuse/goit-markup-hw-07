@@ -2,8 +2,12 @@
     padding: 94px 0px 0px;
 }
 
-.advantages__list {
-    display: flex;
+// .advantages__list {
+//     display: flex;
+// }
+
+.advantages__list{
+    @include centeredFlex();
 }
 
 .advantages__item {

@@ -1,6 +1,10 @@
+// .portfolio {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
 .portfolio {
-    display: flex;
-    flex-wrap: wrap;
+    @include centeredFlex($wrap: wrap);
 }
 
 .portfolio__item {

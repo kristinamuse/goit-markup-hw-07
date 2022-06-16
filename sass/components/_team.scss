@@ -2,8 +2,12 @@
     background-color: var(--secondary-background-colour);
 }
 
+// .team__list {
+//     display: flex;
+// }
+
 .team__list {
-    display: flex;
+    @include centeredFlex();
 }
 
 .team__card {

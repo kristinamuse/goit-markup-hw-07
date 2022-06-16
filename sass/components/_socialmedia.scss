@@ -1,5 +1,9 @@
+// .socialmedia {
+//     display: flex;
+// }
+
 .socialmedia {
-    display: flex;
+    @include centeredFlex();
 }
 
 .socialmedia__item {
@@ -11,9 +15,11 @@
 }
 
 .socialmedia__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    @include centeredFlex();
+
     width: 44px;
     height: 44px;
     border-radius: 50%;

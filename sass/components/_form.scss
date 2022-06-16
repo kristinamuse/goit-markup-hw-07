@@ -11,9 +11,15 @@
     text-align: center;
 }
 
+// .form__field {
+//     display: flex;
+//     flex-direction: column;
+//     margin-bottom: 10px;
+// }
+
 .form__field {
-    display: flex;
-    flex-direction: column;
+    @include centeredFlex($direction: column, $cross-axis:stretch);
+
     margin-bottom: 10px;
 }
 
@@ -98,8 +104,10 @@
 }
 
 .form__checkbox-label {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
+    @include centeredFlex($main-axis:flex-start);
+    
     font-size: 14px;
     line-height: 1.71;
     color: var(--secondary-text-colour);

@@ -1,6 +1,10 @@
+// .subscribtion {
+//     display: flex;
+//     align-items: flex-end;
+// }
+
 .subscribtion {
-    display: flex;
-    align-items: flex-end;
+    @include centeredFlex($cross-axis:flex-end);
 }
 
 .subscribtion__text {
@@ -38,8 +42,10 @@
 }
 
 .subscribtion__button {
-    display: inline-flex;
-    align-items: center;
+    // display: inline-flex;
+    // align-items: center;
+    @include centeredFlex($type:inline-flex);
+
     padding: 10px 28px;
     margin-left: 12px;
 }
